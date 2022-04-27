@@ -30,63 +30,61 @@ const SingleStretch = () => {
     return <p>Loading...</p>;
   } else {
     return (
-      <div>
-        <div className="single-stretch-container">
-          <div className="single-stretch-card">
-            <h2>{stretch.name}</h2>
-            <h3>{`Target: ${stretch.target}`}</h3>
-            <div className="single-stretch-description">
-              {/* <img src={stretch.stretchimages} alt="Stretch Img" /> */}
-            </div>
-            <button
-              type="button"
-              className="start-stretch-button"
-              onClick={() => handleClick()}
-            >
-              Start Stretch
-            </button>
+      <div className="single-stretch-container">
+        <div className="single-stretch-card">
+          <h2>{stretch.name}</h2>
+          <h3>{`Target: ${stretch.target}`}</h3>
+          <div className="single-stretch-description">
+            {/* <img src={stretch.stretchimages} alt="Stretch Img" /> */}
           </div>
+          <button
+            type="button"
+            className="start-stretch-button"
+            onClick={() => handleClick()}
+          >
+            Start Stretch
+          </button>
+        </div>
 
-          <div className="secondhalf">
-            <div className="stretch-gif">
-              <img
-                src={stretch.gif}
-                alt="stretch"
-                style={{ height: "370px", width: "350px" }}
-              />
-            </div>
-
-            <div className="steps">
-              <h2> Steps</h2>
-              {stretch.one}
-              <br />
-              <br />
-              {stretch.stepTwo}
-              <br />
-              <br />
-              {stretch.stepThree}
-              <br />
-              <br />
-              {stretch.stepFour}
-              <br />
-              <br />
-              {stretch.stepFive}
-            </div>
-          </div>
-          <div className="discover">
+        <div className="secondhalf">
+          <div className="stretch-gif">
             <img
-              src="https://static.thenounproject.com/png/4236378-200.png"
-              alt="brave-icon"
-              className="brave-icon"
+              src={stretch.gif}
+              alt="stretch"
+              style={{ height: "370px", width: "350px" }}
             />
-            <h2>
-              Discover More <span style={{ color: "#23b54d" }}>Stretches</span>
-            </h2>
-
-            <Link to="/stretches">
-              <button className="view-stretches">View Stretches</button>
-            </Link>
           </div>
+
+          <div className="steps">
+            <h2> Steps</h2>
+            {stretch.one}
+            <br />
+            <br />
+            {stretch.stepTwo}
+            <br />
+            <br />
+            {stretch.stepThree}
+            <br />
+            <br />
+            {stretch.stepFour}
+            <br />
+            <br />
+            {stretch.stepFive}
+          </div>
+        </div>
+        <div className="discover">
+          <img
+            src="https://static.thenounproject.com/png/4236378-200.png"
+            alt="brave-icon"
+            className="brave-icon"
+          />
+          <h2>
+            Discover More <span style={{ color: "#23b54d" }}>Stretches</span>
+          </h2>
+
+          <Link to="/stretches">
+            <button className="view-stretches">View Stretches</button>
+          </Link>
         </div>
       </div>
     );

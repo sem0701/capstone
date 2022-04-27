@@ -10,8 +10,7 @@
 
     &-img {
       width: 50vw;
-      // height: 100vh;
-      height: calc(100vh - 64px);
+      min-height: calc(100vh - 64px);
       object-fit: cover;
       border-top-right-radius: 220px;
       // object-position: right -100px;
