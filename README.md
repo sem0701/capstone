@@ -32,7 +32,7 @@
     <a href="https://github.com/cs-2201-15/capstone"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="#">View Demo</a>
+    <a href="https://bendwell.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/cs-2201-15/capstone/issues">Report Bug</a>
     ·
@@ -69,9 +69,11 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Bendwell is a wellness platform aimed at those who are stuck at their desks for many hours at a time. Through the use of a custom trained pose detection model, users are able to stretch and receive real time feedback, without having to leave their office, desk, or any other workspace they are at. Users can choose stretches to try from our pre-trained catalogue of stretches, or if interested, can make an account to build custom routines for targeting certain muscle groups, having a set break for stretching, or to accommodate for different space requirements. Visit the deployed site at [bendwell.netlify.app](https://bendwell.netlify.app/) to see the live demo.
 
-Bendwell is a wellness platform aimed at those who are stuck at their desks for many hours at a time. Through the use of a custom trained pose detection model, users are able to stretch and recieve real time feedback, without having to leave their office, desk, or any other workspace they are at. Users can choose stretches to try from our pre-trained catalogue of stretches, or if interested, can make an account to build custom routines for targeting certain muscle groups, having a set break for stretching, or to accomate for different space requirments.
+**_If you would like to view user features without creating an account, please use our demo account:_** <br>
+Username: test@test.com <br>
+Password: 123456
 
 ### Built With
 
@@ -100,22 +102,18 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/cs-2201-15/capstone
+   git clone https://github.com/sem0701/capstone.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Run the application
-
-```sh
-npm run start
-```
+3. Run the application
+   ```sh
+   npm run start
+   ```
 
 <!-- USAGE EXAMPLES -->
 
